@@ -18,7 +18,7 @@ export default class Captcha extends React.Component<CaptchaProps> {
       // @ts-ignore
       <ReCAPTCHA
         ref={this.captcha}
-        sitekey={process.env.SITE_KEY}
+        sitekey="6Led9a8UAAAAAJV5q2v6C_U33C6CiUP_kjwqXSpu"
         onChange={this.props.onVerify}
       />
     );
