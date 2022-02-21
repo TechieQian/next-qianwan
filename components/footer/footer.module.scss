@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  a:not(:last-child):after {
+    margin: 0 5px;
+    content: "|";
+  }
+}
