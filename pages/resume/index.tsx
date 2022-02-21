@@ -89,11 +89,9 @@ export default function Form({ onPost }: FormProps) {
           Download Resume
         </button>
         <Link href="/">
-          <button style={{ marginTop: "15px" }} className="button">
-            <span className="icon is-small">
-              <i className="fas fa-home" />
-            </span>
-          </button>
+          <span className="icon is-small">
+            <i className="fas fa-home" />
+          </span>
         </Link>
       </div>
     </div>

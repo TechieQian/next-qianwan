@@ -46,7 +46,7 @@ const Header = function () {
 function IconLink(props: any) {
   return (
     <span className="icon">
-      <a title={props.title} href={props.link} target="_blank">
+      <a title={props.title} href={props.link} target="_blank" rel="noreferrer">
         <i className={props.classNames} />
       </a>
     </span>
