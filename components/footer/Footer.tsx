@@ -8,7 +8,7 @@ export default function Footer() {
         <Link href="/">About</Link>
         <Link href="/resume/">Resume</Link>
       </div>
-      <p className="footer__copyright">© 2022 by qian</p>
+      <p className="footer__copyright">© 2024 by qian</p>
     </footer>
   );
 }
