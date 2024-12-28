@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  margin-top: 9vh;
+  margin-top: 5vh;
   margin-bottom: 15px;
   img {
     border-radius: 50%;
@@ -44,8 +44,7 @@ body {
   }
 }
 
-.footer {
-  background-color: #fff;
+.q-footer {
   padding: 0;
 
   &__links {
@@ -76,7 +75,7 @@ body {
 }
 
 .content {
-  max-width: 350px;
+  max-width: 400px;
   text-align: justify;
   margin: 0 auto;
   line-height: 2;
