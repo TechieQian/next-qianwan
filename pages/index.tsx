@@ -2,15 +2,21 @@ import React from "react";
 
 const IndexPage = () => (
   <article>
-    <b>Hello!</b> My name is Qian and I am a software engineer with over 15
-    years of experience building web application at the intersection of finance and tech.
+    <b>Hello!</b> I'm Qian and I'm a software engineer with over 15 years of
+    experience building scalable web application at the intersection of finance
+    and tech. Throughout my career I've built demo prototypes for fintech
+    startups and orchestrated large, multi team efforts at big tech.
     <p style={{ marginTop: "1em" }}>
-      I lead the development of LinkedIn's first AI feature, editorial tooling, and
-      also developed LinkedIn's games platform from scratch (I know right).
+      At LinkedIn I was the lead for editorial tooling, and also part of the
+      moon shots organization where I piloted LinkedIn's first AI feature in
+      collaborative articles and also laying the foundations for LinkedIn games.
     </p>
-    <p style={{ marginTop: "1em"}}>
-      At financial institutions such as Blackstone and King Street, I helped build the next generation of web stack.
-      I am currently a software engineer at Jain Global, building the entire suite of web applications for the biggest hedge fund launch.
+    <p style={{ marginTop: "1em" }}>
+      I built the next generation of tech stack and trained up teams of web
+      developers at Blackstone. I am currently at Jain Global, hands on building
+      the entire suite of highly complex and ambitious tools for our risk
+      takers. My work is driven by the cross section of high craftsmanship,
+      rapid execution, and results-oriented leadership.
     </p>
   </article>
 );
