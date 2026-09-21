@@ -91,7 +91,7 @@ export default function Form() {
           <textarea className="textarea" placeholder="Message" />
         </div>
       </div>
-      <Captcha onVerify={setCaptcha} />
+      <Captcha onVerify={(token) => setCaptcha(token ?? "")} />
       <div className="button_row">
         <button
           style={{ marginTop: "15px", marginRight: "15px" }}
