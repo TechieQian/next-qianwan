@@ -1,11 +1,10 @@
-import React, { useMemo } from "react";
-import Image from "next/image";
+import React from "react";
 
 const Header = function () {
   return (
     <header className="container header">
       <section className="header__top">
-        <Image
+        <img
           className="header__me"
           alt="qian"
           height={150}

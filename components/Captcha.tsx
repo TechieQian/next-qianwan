@@ -1,25 +1,16 @@
-import * as React from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 interface CaptchaProps {
-  onVerify: (token: string | null) => void;
+  onVerify: (token: string) => void;
 }
 
-export default class Captcha extends React.Component<CaptchaProps> {
-  constructor(props: CaptchaProps) {
-    super(props);
-    this.captcha = React.createRef<ReCAPTCHA>();
-  }
-
-  captcha: React.RefObject<ReCAPTCHA | null>;
-
-  render() {
-    return (
-      <ReCAPTCHA
-        ref={this.captcha}
-        sitekey="6Led9a8UAAAAAJV5q2v6C_U33C6CiUP_kjwqXSpu"
-        onChange={this.props.onVerify}
-      />
-    );
-  }
+export default function Captcha({ onVerify }: CaptchaProps) {
+  return (
+    <ReCAPTCHA
+      sitekey="6Led9a8UAAAAAJV5q2v6C_U33C6CiUP_kjwqXSpu"
+      onChange={(token) => onVerify(token ?? "")}
+      onExpired={() => onVerify("")}
+      onErrored={() => onVerify("")}
+    />
+  );
 }
